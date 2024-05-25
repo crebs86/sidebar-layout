@@ -1,0 +1,105 @@
+.sidebar {
+  overflow-y: auto;
+  border-radius: 0 10px 10px 0;
+}
+
+.sidebar__titulo {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.sidebar__titulo-texto {
+  display: none;
+}
+
+.sidebar__foto-perfil {
+  margin: 30px auto;
+  display: block;
+}
+
+.sidebar__foto-textos {
+  display: none;
+}
+
+.menu {
+  text-align: center;
+  color: var(--branco);
+}
+
+.menu__titulo {
+  text-transform: uppercase;
+  margin-top: 0.7em;
+}
+
+.menu__item {
+  margin: 20px auto;
+}
+
+.menu__link-imagem {
+  font-size: 26px;
+}
+
+.menu__link-texto{
+    display: none;
+}
+
+.lines {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  border: 0;
+  height: 1.5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .sidebar__titulo {
+    display: flex;
+    text-align: center;
+    margin-left: 30%;
+    color: var(--branco);
+  }
+
+  .sidebar__titulo-texto {
+    display: block;
+    margin-top: 0.62em;
+  }
+
+  .sidebar__foto {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .sidebar__foto-perfil {
+    margin: 1em 0 1em 1.5em;
+  }
+
+  .sidebar__foto-textos {
+    display: block;
+    color: var(--branco);
+  }
+
+  .sidebar__foto-conta{
+    font-size: 12px;
+  }
+
+  .menu {
+    text-align: left;
+  }
+
+  .menu__item,
+  .menu__titulo {
+    margin-left: 1.5em;
+  }
+
+  .menu__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+  }
+
+  .menu__link-texto {
+    display: block;
+    margin-left: 1.5em;
+  }
+}

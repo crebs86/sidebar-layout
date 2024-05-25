@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/resets.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <title>Layout Sidebar</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">Header</header>
+
+      <nav class="sidebar">
+        <div class="sidebar__titulo">
+          <img src="img/letter-c-square.svg" alt="Logo" width="25px" />
+          <div class="sidebar__titulo-texto">rebsDev</div>
+        </div>
+
+        <hr class="lines" />
+
+        <div class="sidebar__foto">
+          <img
+            class="sidebar__foto-perfil"
+            src="img/no-profile.svg"
+            alt="Foto Perfil"
+            width="35px"
+          />
+          <div class="sidebar__foto-textos">
+            <div class="sidebar__foto-nome">Cleber Martins</div>
+            <div class="sidebar__foto-conta">Minha Conta</div>
+          </div>
+        </div>
+
+        <hr class="lines" />
+
+        <ul class="menu">
+          <p class="menu__titulo">Menu</p>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="home"> </ion-icon>
+              <p class="menu__link-texto">Início</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="add-circle"> </ion-icon>
+              <p class="menu__link-texto">Novo Post</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="mail"> </ion-icon>
+              <p class="menu__link-texto">Mensagens</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="people"> </ion-icon>
+              <p class="menu__link-texto">Amigos</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="notifications">
+              </ion-icon>
+              <p class="menu__link-texto">Notificações</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="people-circle">
+              </ion-icon>
+              <p class="menu__link-texto">Grupos</p>
+            </a>
+          </li>
+          <hr class="lines" />
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="documents"> </ion-icon>
+              <p class="menu__link-texto">Páginas</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="game-controller">
+              </ion-icon>
+              <p class="menu__link-texto">Jogos</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="settings"> </ion-icon>
+              <p class="menu__link-texto">Configurações</p>
+            </a>
+          </li>
+          <hr class="lines" />
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <ion-icon class="menu__link-imagem" name="power"> </ion-icon>
+              <p class="menu__link-texto">Sair</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="main">main</main>
+
+      <footer class="footer">footer</footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
